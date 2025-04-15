@@ -1,0 +1,22 @@
+{
+  "name": "alwayscurious/charts",
+  "description": "A lightweight PHP SVG charting library",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AlwaysCurious\\Charts\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.0",
+    "pestphp/pest-plugin-expectations": "^2.0",
+    "pestphp/pest-plugin-coverage": "^2.0"
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  }
+}
