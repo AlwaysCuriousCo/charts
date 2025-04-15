@@ -1,6 +1,6 @@
 <?php
 
-use AlwaysCurious\Charts\Charts\Chart;
+use AlwaysCurious\Charts\Chart;
 
 it('renders an SVG chart from data', function () {
     $chart = new Chart([1, 5, 3, 6]);
