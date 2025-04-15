@@ -1,6 +1,6 @@
 <?php
 
-namespace AlwaysCurious\Charts\Charts;
+namespace AlwaysCurious\Charts;
 
 use AlwaysCurious\Charts\Renderers\SvgRenderer;
 
